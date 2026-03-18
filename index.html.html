@@ -1,0 +1,18 @@
+<html>
+  <body>
+    <h1>Hello AWS</h1>
+    <p>This is my first AWS project</p>
+
+    <h2 id="visitor-count">Visitors: Loading...</h2>
+
+    <script>
+    fetch("https://psavsin942.execute-api.us-east-1.amazonaws.com/prod/count")
+      .then(res => res.json())
+      .then(data => {
+        document.getElementById("visitor-count").innerText =
+          "Visitors: " + data.count;
+      })
+      .catch(err => console.error(err));
+    </script>
+  </body>
+</html>
