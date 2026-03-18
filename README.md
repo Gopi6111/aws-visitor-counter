@@ -15,4 +15,4 @@ This project is a serverless visitor counter built using AWS.
 - Scalable and cost-efficient
 
 ## Live Demo
-(Add your CloudFront URL here)
+dz1bwzohk0lq7.cloudfront.net
